@@ -24,3 +24,12 @@ letters3 = lettersRegex.search("abc 1234 xyz")
 print(letters)
 print(letters2)
 print(letters3.group())
+
+text = "my This is my code line."
+
+findARegx = re.compile(r'my')
+print(findARegx.search(text)) #Finds the FIRST match of an expression
+print(findARegx.findall(text)) #Find every occurance of provided string and puts them in a list
+print(findARegx.match(text))  #Looks for pattern match at the beginning of text.
+print(findARegx.split(text)) #At each instance of the provided pattern, it will remove that and return the text/data after/between the next occurance.
+print(findARegx.sub('new', text)) #Replaces each instance of the provided pattern and returns a brand new string.
