@@ -33,3 +33,7 @@ print(findARegx.findall(text)) #Find every occurance of provided string and puts
 print(findARegx.match(text))  #Looks for pattern match at the beginning of text.
 print(findARegx.split(text)) #At each instance of the provided pattern, it will remove that and return the text/data after/between the next occurance.
 print(findARegx.sub('new', text)) #Replaces each instance of the provided pattern and returns a brand new string.
+
+##### New Features #####
+def add_two(num):
+    return num + 2
