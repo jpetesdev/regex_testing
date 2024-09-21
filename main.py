@@ -38,10 +38,7 @@ print(findARegx.sub('new', text)) #Replaces each instance of the provided patter
 def add_two(num):
     return num + 2
 
-<<<<<<< HEAD
 # I am adding this line to the main after the fact
-=======
 #This is a change not in newfeature.
 
 #This is a change not in main
->>>>>>> newfeature
