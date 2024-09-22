@@ -42,3 +42,6 @@ def add_two(num):
 #This is a change not in newfeature.
 
 #This is a change not in main
+
+def sub_two(num):
+    return num - 2
