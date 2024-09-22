@@ -46,4 +46,8 @@ def add_two(num):
 def sub_two(num):
     return num - 2
 
+<<<<<<< HEAD
 #Added to main
+=======
+#Added to new features
+>>>>>>> newfeature
